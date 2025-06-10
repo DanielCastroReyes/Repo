@@ -10,7 +10,7 @@
         <div class="container-fluid">
             <?php
                 echo '<h1>Usuarios del sistema</h1>';
-                $conn = mysqli_connect('db','root','root.pa55');
+                $conn = mysqli_connect('db','user1','user1.pa55');
                 $database = mysqli_select_db($conn, 'db_ejm1');
                 $query = 'SELECT * FROM Usuarios';
                 $result = mysqli_query($conn, $query);
